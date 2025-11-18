@@ -1,0 +1,37 @@
+python3 summ1.py boseb/GXwasR
+sleep 4
+python3 summ1.py marshall-lab/damidBind
+sleep 4
+python3 summ1.py tidymass/masstools
+sleep 4
+python3 summ1.py guillermodeandajauregui/punKEGGer
+sleep 4
+python3 summ1.py yufree/sfi
+sleep 4
+python3 summ1.py satyanarayan-rao/SMTrackR
+sleep 4
+python3 summ1.py Olsman/CompensAID
+sleep 4
+python3 summ1.py EHSRB-BSRSE-Bioinformatics/MutSeqRData
+sleep 4
+python3 summ1.py biodatalab/enrichmet
+sleep 4
+python3 summ1.py tgac-vumc/StatescopeR
+sleep 4
+python3 summ1.py xyz1396/Aerith
+sleep 4
+python3 summ1.py DataScienceRD-Almirall/singIST
+sleep 4
+python3 summ1.py ivanek/Rega
+sleep 4
+python3 summ1.py jdelasrivas-lab/asuri
+sleep 4
+python3 summ1.py datalifecycle-ua/MetabolomicsPipeline
+sleep 4
+python3 summ1.py fiszbein-lab/SpliceImpactR
+sleep 4
+python3 summ1.py nshen7/decemedip
+sleep 4
+python3 summ1.py MicroStatsLab/PloidyPeaks
+sleep 4
+python3 summ1.py bryanwgranger/scToppR
