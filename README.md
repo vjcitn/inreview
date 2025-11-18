@@ -1,4 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
+<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:32px;margin-right:32px"/>
 
 <!--
 # I am going to attach another text file and I would like you to summarize the contents again as you did before producing markdown text with correct URL annotations for the github repositories mentioned, but use about 12 categories.  Focus on the molecular methods addressed by the packages when possible, and avoid generalities like machine learning or visualization for categories.
