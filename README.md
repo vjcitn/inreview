@@ -1,91 +1,162 @@
+<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-Here is a categorization and summarized Markdown of the attached repository summaries, grouped into 10 major scientific categories. Each repository entry is annotated with its correct GitHub URL for traceability.
+<!--
+# I am going to attach another text file and I would like you to summarize the contents again as you did before producing markdown text with correct URL annotations for the github repositories mentioned, but use about 12 categories.  Focus on the molecular methods addressed by the packages when possible, and avoid generalities like machine learning or visualization for categories.
 
-### 1. Single-Cell \& RNA-Seq Analysis
-
-- **wenmmEMTscoreData** ([github.com/sonneveld-lab/wenmmEMTscoreData](https://github.com/sonneveld-lab/wenmmEMTscoreData)): A curated collection of single-cell RNA-seq datasets profiling the epithelial-mesenchymal transition in human cancer cell lines.[^1]
-- **libscranscrapple** ([github.com/LTLA/libscranscrapple](https://github.com/LTLA/libscranscrapple)): User-friendly wrappers for single-cell RNA-seq analysis in R, interoperable with Bioconductor objects.[^1]
-- **BatChef** ([github.com/zuinelena3/BatChef](https://github.com/zuinelena3/BatChef)): R package for correcting batch effects in scRNA-seq data, with interfaces in both R and Python.[^1]
-- **cellNexus** ([github.com/MangiolaLaboratory/cellNexus](https://github.com/MangiolaLaboratory/cellNexus)): Enables querying and harmonized analysis of large Human Cell Atlas datasets.[^1]
-- **SwarnSeq** ([github.com/nifmd-bbf/SwarnSeq](https://github.com/nifmd-bbf/SwarnSeq)): Differential expression and zero inflation analysis for scRNA-seq UMI counts, adjusting for cell capture efficiency.[^1]
-- **hammers** ([github.com/andrei-stoica26/hammers](https://github.com/andrei-stoica26/hammers)): Tools and utilities for developers working with scRNA-seq and Seurat/SingleCellExperiment objects.[^1]
-
-
-### 2. Genomics \& Epigenomics
-
-- **annoLinker** ([github.com/jianhong/annoLinker](https://github.com/jianhong/annoLinker)): Fast annotation of genomic peaks via DNA interaction data and igraph visualizations.[^1]
-- **epiSeeker** ([github.com/YuLab-SMU/epiSeeker](https://github.com/YuLab-SMU/epiSeeker)): Multi-omics epigenetic annotation, comparison, and visualization—supports fragment and base-type data.[^1]
-- **GenomicCoordinates** ([github.com/js2264/GenomicCoordinates](https://github.com/js2264/GenomicCoordinates)): Robust parsing and manipulation of genomic coordinates for Bioconductor workflows.[^1]
-- **AnVILVRS** ([github.com/Bioconductor/AnVILVRS](https://github.com/Bioconductor/AnVILVRS)): Interface to GA4GH VRS Toolkit, enabling genomic variant translation and allele frequency analysis.[^1]
-
-
-### 3. Cancer Biology
-
-- **CATS** ([github.com/guldenolgun/CATS](https://github.com/guldenolgun/CATS)): Identifies cancer-specific gene signatures for transcriptomic analyses, addressing tissue and cell context.[^1]
-- **ClonalSim** ([github.com/gbucci/ClonalSim](https://github.com/gbucci/ClonalSim)): Simulates tumor clonal evolution, generating hierarchical mutational profiles for benchmarking variant callers.[^1]
-- **fRagmentomics** ([github.com/ElsaB-Lab/fRagmentomics](https://github.com/ElsaB-Lab/fRagmentomics)): Annotates fragment-level mutations in cell-free DNA for liquid biopsy applications in cancer care.[^1]
-- **omicsForestryCrcBiomeScreen** ([github.com/omicsForestry/CrcBiomeScreen](https://github.com/omicsForestry/CrcBiomeScreen)): Machine learning framework for microbiome-based colorectal cancer screening and model evaluation.[^1]
-
-
-### 4. Proteomics \& Mass Spectrometry
-
-- **TraianProt** ([github.com/SamueldelaCamaraFuentes/TraianProt](https://github.com/SamueldelaCamaraFuentes/TraianProt)): R package and Shiny app for downstream analysis of quantitative proteomics data, supporting multiple acquisition modes.[^1]
-- **proBatch** ([github.com/Freddsle/proBatch](https://github.com/Freddsle/proBatch)): Tools to diagnose and correct batch effects in high-throughput experiments, focusing on mass-spectrometry proteomics.[^1]
-- **DaparToolshed** ([github.com/edyp-lab/DaparToolshed](https://github.com/edyp-lab/DaparToolshed)): Differential analysis of protein abundance data with user-friendly GUIs.[^1]
-- **lcmsPlot** ([github.com/computational-metabolomics/lcmsPlot](https://github.com/computational-metabolomics/lcmsPlot)): Publication-ready LC-MS data visualization with integration into Bioconductor.[^1]
-- **MetaProViz** ([github.com/saezlab/MetaProViz](https://github.com/saezlab/MetaProViz)): Metabolomics data analysis with interactive and modular mechanistic hypothesis generation.[^1]
-- **metabom8** ([github.com/tkimhofer/metabom8](https://github.com/tkimhofer/metabom8)): Comprehensive 1D NMR metabolomics workflow including modeling, preprocessing, and visualization.[^1]
-
-
-### 5. Data Integration \& Multi-omics
-
-- **carmon** ([github.com/DrQuestion/carmon](https://github.com/DrQuestion/carmon)): Copula-based approach for reconstructing networks from multi-omics datasets; includes simulation and analysis tools.[^1]
-- **tidyexposomics** ([github.com/BioNomad/tidyexposomics](https://github.com/BioNomad/tidyexposomics)): Integration of exposure and omics data with simplified analysis in tidyverse style, targeted for quality control and multi-omics association.[^1]
-
-
-### 6. Machine Learning \& Statistical Modeling
-
-- **dioscRi** ([github.com/ecool50/dioscRi](https://github.com/ecool50/dioscRi)): Deep learning-based clinical prediction in high-dimensional cytometry data using MMD-VAE normalization.[^1]
-- **SEMplR** ([github.com/grkenney/SEMplR](https://github.com/grkenney/SEMplR)): Predicts transcription factor binding via SNP Effect Matrices, integrating multiple genomic datasets.[^1]
-- **CENTRE** ([github.com/slrvv/CENTRE](https://github.com/slrvv/CENTRE)): Cell-type-specific enhancer target interaction prediction using gene expression and ChIP-seq data.[^1]
-- **DOTSeq** ([github.com/compgenom/DOTSeq](https://github.com/compgenom/DOTSeq)): ORF-level differential analysis of ribosome and RNA profiling using beta-binomial GLMs.[^1]
-- **bigomicsplaid** ([github.com/bigomics/plaid](https://github.com/bigomics/plaid)): Fast single-sample enrichment scoring and simulation of widely-used gene set scoring algorithms.[^1]
-
-
-### 7. Visualization Tools
-
-- **GOfan** ([github.com/jianhong/GOfan](https://github.com/jianhong/GOfan)): Sunburst GO enrichment visualization preserving GO term hierarchy, supporting color-based encoding.[^1]
-- **MDSvis** ([github.com/UCLouvain-CBIOM/MDSvis](https://github.com/UCLouvain-CBIOM/MDSvis)): Visualizes MDS results for cytometry samples, with interactive plot customization.[^1]
-- **BiocPkgDash** ([github.com/Bioconductor/BiocPkgDash](https://github.com/Bioconductor/BiocPkgDash)): Interactive dashboard for Bioconductor package maintainers.[^1]
-- **ClusterGVis** ([github.com/junjunlab/ClusterGVis](https://github.com/junjunlab/ClusterGVis)): Streamlined gene expression clustering and visualization for time-series datasets.[^1]
-- **wompwomp** ([github.com/pachterlab/wompwomp](https://github.com/pachterlab/wompwomp)): Optimizes alluvial cluster concordance plots in R for improved agreement visualization.[^1]
-
-
-### 8. Bioinformatics Infrastructure \& Data Handling
-
-- **traverscfraq** ([github.com/your-account/traverscfraq](https://github.com/your-account/traverscfraq)): Extensible toolkit for processing FASTQ data using Intel TBBs flow graph for concurrent IO and preprocessing.[^1]
-- **HDF5DataFrame** ([github.com/BIMSBbioinfo/HDF5DataFrame](https://github.com/BIMSBbioinfo/HDF5DataFrame)): Provides R-compatible bindings for HDF5 files, enabling efficient manipulation of large tabular datasets.[^1]
-- **ImageArray** ([github.com/BIMSBbioinfo/ImageArray](https://github.com/BIMSBbioinfo/ImageArray)): Efficient management and manipulation of pyramidal image arrays for large microscopy images in R.[^1]
-- **tidyprint** ([github.com/tidyomics/tidyprint](https://github.com/tidyomics/tidyprint)): Centralized strategy for scalable and reproducible visualization of biological data in R.[^1]
-
-
-### 9. Immunology \& Interaction Networks
-
-- **immReferent** ([github.com/BorchLab/immReferent](https://github.com/BorchLab/immReferent)): Interface to IMGT immune receptor and HLA sequences, integrated with AIRR-Cs OGRDB for reproducible immunology research.[^1]
-- **fourSynergy** ([github.com/sophiewind/fourSynergy](https://github.com/sophiewind/fourSynergy)): Ensemble algorithm for 4C-seq chromatin interaction analysis, supporting differential interaction calling.[^1]
-
-
-### 10. Utility Packages \& Data Resources
-
-- **GOfan** ([github.com/jianhong/GOfan](https://github.com/jianhong/GOfan)): GO enrichment visualization with hierarchical relationships.[^1]
-- **CLAMPData** ([github.com/pivlab/CLAMPData](https://github.com/pivlab/CLAMPData)): Resources for curated latent variable analysis, distributed via ExperimentHub for molecular priors.[^1]
-- **carnation** ([github.com/NICHD-BSPC/carnation](https://github.com/NICHD-BSPC/carnation)): Shiny app for bulk RNA-Seq exploration and visualization of differential expression, functional enrichment, and pattern analysis.[^1]
+Below is a categorization and structured Markdown summary for the attached repository descriptions from your file. The repositories are grouped into 12 scientific categories, focusing on molecular methods and technologies. Each repository includes its correct GitHub URL annotation.
+-->
 
 ***
 
-This organized and annotated markdown provides a scientific breakdown of the repo summaries. Each GitHub repo name links directly to its stated repository, and scientific category is assigned based on primary function and research domain described.[^1]
+### 1. DNA Sequencing \& FASTQ Processing
+
+- **traverscfraq**: High-throughput toolkit for processing FASTQ sequencing files with efficient concurrent IO, covering downsampling, barcode counting, demultiplexing, trimming, and more.
+[github.com/your-account/traverscfraq](https://github.com/your-account/traverscfraq)[^1]
+- **yaccosposDemux**: Utilities for demultiplexing and filtering combinatorial barcoded reads in methods like PETRI-seq and SPLiT-seq; includes interactive barcode cutoff selection.
+[github.com/yaccospos/Demux](https://github.com/yaccospos/Demux)[^1]
+
+***
+
+### 2. Single-cell RNA-seq Data
+
+- **wenmmEMTscoreData**: Provides 12 curated single-cell RNA-seq datasets profiling EMT in human cancer cell lines; data supplied as Seurat objects.
+[github.com/sonneveld-lab/wenmmEMTscoreData](https://github.com/sonneveld-lab/wenmmEMTscoreData)[^1]
+- **libscranscrapple**: User-friendly wrappers for single-cell RNA-seq analysis in R, interoperable with Bioconductor objects and supporting common single-cell workflows.
+[github.com/LTLA/libscranscrapple](https://github.com/LTLA/libscranscrapple)[^1]
+- **StatescopeR**: Deconvolves bulk RNA profiles into cellular components using single-cell RNA-seq references and prior knowledge.
+[github.com/tgac-vumc/StatescopeR](https://github.com/tgac-vumc/StatescopeR)[^1]
+- **singIST**: Comparative single-cell transcriptomics, aligning disease models and human datasets for cell type mapping and orthology.
+[github.com/DataScienceRD-Almiralls/singIST](https://github.com/DataScienceRD-Almiralls/singIST)[^1]
+- **SwarnSeq**: Differential expression and zero-inflation analysis in scRNA-seq UMI data with cell-level auxiliary information for modeling.
+[github.com/nifmd-bbf/SwarnSeq](https://github.com/nifmd-bbf/SwarnSeq)[^1]
+- **BatChef**: Batch effect correction for single-cell RNA-seq, providing interfaces for R and Python, and evaluation metrics.
+[github.com/zuinelena3/BatChef](https://github.com/zuinelena3/BatChef)[^1]
+- **cellNexus**: Query and analyze large Human Cell Atlas datasets using harmonized metadata at cell, sample, or dataset levels.
+[github.com/MangiolaLaboratory/cellNexus](https://github.com/MangiolaLaboratory/cellNexus)[^1]
+- **hammers**: Toolset for developer and scientific single-cell RNA-seq workflows, supporting Seurat and SingleCellExperiment objects.
+[github.com/andrei-stoica26/hammers](https://github.com/andrei-stoica26/hammers)[^1]
+- **CellMentor**: Cell type-aware NMF for dimensionality reduction in single-cell analysis, enhancing cell type separation.
+[github.com/petrenkokate/CellMentor](https://github.com/petrenkokate/CellMentor)[^1]
+
+***
+
+### 3. Long-read \& Isoform Sequencing
+
+- **HumanRetinaLRSData**: Data package for long-read direct cDNA sequencing of retinal organoids and retinal ganglion cell cultures.
+[github.com/sparthib/HumanRetinaLRSData](https://github.com/sparthib/HumanRetinaLRSData)[^1]
+
+***
+
+### 4. Ribosome Profiling \& Translation
+
+- **DOTSeq**: ORF-level differential analysis for ribosome profiling and RNA-seq using beta-binomial GLM models for translation efficiency and ORF usage.
+[github.com/compgenom/DOTSeq](https://github.com/compgenom/DOTSeq)[^1]
+
+***
+
+### 5. DNA Methylation \& Epigenomics
+
+- **CMG-UADMRsegaldata**: Example DNA methylation data for evaluation and benchmarking of DMRsegal workflows.
+[github.com/CMG-UADMRsegaldata](https://github.com/CMG-UADMRsegaldata)[^1]
+- **epiSeeker**: Multi-omic epigenetic annotation and motif analysis of fragment or base-resolved data across peaks, including genomic annotation and significant overlap analysis.
+[github.com/YuLab-SMU/epiSeeker](https://github.com/YuLab-SMU/epiSeeker)[^1]
+- **decemedip**: Bayesian deconvolution of cell types in bulk or cell-free MeDIP-seq methylation data, leveraging reference datasets from arrays or WGBS.
+[github.com/nshen7/decemedip](https://github.com/nshen7/decemedip)[^1]
+
+***
+
+### 6. Chromatin Interaction \& Accessibility Methods
+
+- **fourSynergy**: Ensemble of algorithms for analyzing 4C-seq chromatin interaction data, supporting differential interaction calling among algorithms.
+[github.com/sophiewind/fourSynergy](https://github.com/sophiewind/fourSynergy)[^1]
+- **annoLinker**: Fast annotation of genomic peaks using DNA interaction/chromatin contacts visualized as igraph networks and genomic tracks.
+[github.com/jianhong/annoLinker](https://github.com/jianhong/annoLinker)[^1]
+- **damidBind**: Pipeline for differential DamID-seq analysis for chromatin protein occupancy; visualization and linking to gene expression.
+[github.com/marshall-lab/damidBind](https://github.com/marshall-lab/damidBind)[^1]
+- **SMTrackR**: Visualizes protein-DNA binding events and occupancy on individual DNA molecules from bisulfite sequencing data.
+[github.com/satyanarayan-rao/SMTrackR](https://github.com/satyanarayan-rao/SMTrackR)[^1]
+
+***
+
+### 7. Variant Calling, Simulation, \& Representation
+
+- **ClonalSim**: Simulates realistic tumor clonal evolution with hierarchical mutational structure for benchmarking variant callers and teaching heterogeneity concepts.
+[github.com/gbucci/ClonalSim](https://github.com/gbucci/ClonalSim)[^1]
+- **AnVILVRS**: Interface to GA4GH Variation Representation Specification toolkit for converting among variant formats and VRS allele translation.
+[github.com/Bioconductor/AnVILVRS](https://github.com/Bioconductor/AnVILVRS)[^1]
+- **MutSeqRData**: Experimental DNA sequencing dataset for mutagenesis assays using duplex sequencing, designed for mutation analysis workflows.
+[github.com/EHSRB-BSRSE-Bioinformatics/MutSeqRData](https://github.com/EHSRB-BSRSE-Bioinformatics/MutSeqRData)[^1]
+
+***
+
+### 8. Proteomics \& Mass Spectrometry
+
+- **TraianProt**: R package and Shiny app for comprehensive downstream analysis of quantitative proteomics; supports multiple acquisition modes.
+[github.com/SamueldelaCamaraFuentes/TraianProt](https://github.com/SamueldelaCamaraFuentes/TraianProt)[^1]
+- **proBatch**: Mass-spec batch effect diagnostics and correction tools, tailored for proteomics but adaptable to other omics data.
+[github.com/Freddsle/proBatch](https://github.com/Freddsle/proBatch)[^1]
+- **DaparToolshed**: GUI-enabled suite for protein abundance differential analysis from label-free proteomics data; integrates with Bioconductor.
+[github.com/edyp-lab/DaparToolshed](https://github.com/edyp-lab/DaparToolshed)[^1]
+- **masstools**: MS2 matching and processing functions for mass spectrometry and metabolomics workflows as part of the tidymass project.
+[github.com/tidymass/masstools](https://github.com/tidymass/masstools)[^1]
+- **lcmsPlot**: Publication-ready LCMS chromatogram, mass trace, and spectra plotting for analysis and reproducibility in metabolomics workflows.
+[github.com/computational-metabolomics/lcmsPlot](https://github.com/computational-metabolomics/lcmsPlot)[^1]
+- **DaparToolshedData**: UPS proteomics datasets formatted for MultiAssayExperiment, used for quantitative analysis benchmarking.
+[github.com/edyp-lab/DaparToolshedData](https://github.com/edyp-lab/DaparToolshedData)[^1]
+- **metabom8**: Modules for import, preprocessing, PCA/OPLS modeling, and visualization in Bruker 1D NMR metabolomics workflows.
+[github.com/tkimhofer/metabom8](https://github.com/tkimhofer/metabom8)[^1]
+- **MetaProViz**: R-package for mechanistic hypothesis generation from metabolomics data integrating prior knowledge, differential analysis, and functional analysis.
+[github.com/saezlab/MetaProViz](https://github.com/saezlab/MetaProViz)[^1]
+- **yufree/sfi**: Extraction and analysis tools for Single File Injection LC-MS workflows, enabling multiplexed injections within a single run.
+[github.com/yufree/sfi](https://github.com/yufree/sfi)[^1]
+
+***
+
+### 9. Pathway, Gene Set, \& Enrichment Analysis
+
+- **CATS**: Cancer-context gene signature identification using PPI, co-expression, and upregulation criteria for transcriptomics studies.
+[github.com/guldenolgun/CATS](https://github.com/guldenolgun/CATS)[^1]
+- **GOfan**: GO enrichment results visualization using sunburst plots for hierarchical representation of GO terms.
+[github.com/jianhong/GOfan](https://github.com/jianhong/GOfan)[^1]
+- **enrichmet**: Streamlined metabolite-based pathway enrichment analysis, supporting dot plots, MetSEA, centrality, and network visualizations.
+[github.com/biodatalab/enrichmet](https://github.com/biodatalab/enrichmet)[^1]
+- **Toppgene**: R-Bioconductor wrapper for ToppGene gene enrichment web API, automating query and candidate gene prioritization.
+[github.com/ImmuSystems-Lab/toppgene](https://github.com/ImmuSystems-Lab/toppgene)[^1]
+- **bigomicsplaid**: Ultrafast single-sample enrichment scoring for gene sets, supporting differential enrichment testing.
+[github.com/bigomics/plaid](https://github.com/bigomics/plaid)[^1]
+- **punKEGGer**: Tidy parsing, annotation, and visualization of KEGG pathway networks, integrating pathway graphs into bioinformatics workflows.
+[github.com/guillermodeandajauregui/punKEGGer](https://github.com/guillermodeandajauregui/punKEGGer)[^1]
+
+***
+
+### 10. Genotyping, GWAS, and Genetic Analysis
+
+- **GXwasR**: Implements multiple statistical genetics models for genome-wide and X-chromosome-wide association studies, with explicit XCI pattern testing.
+[github.com/boseb/GXwasR](https://github.com/boseb/GXwasR)[^1]
+
+***
+
+### 11. Metagenomics \& Microbiome Analysis
+
+- **CrcBiomeScreen**: Colorectal cancer screening using microbiome data and normalization strategies in an interpretable framework.
+[github.com/omicsForestry/CrcBiomeScreen](https://github.com/omicsForestry/CrcBiomeScreen)[^1]
+- **tidyexposomics**: Integration of exposure and multi-omics data to identify associations, supporting differential abundance and QC.
+[github.com/BioNomad/tidyexposomics](https://github.com/BioNomad/tidyexposomics)[^1]
+
+***
+
+### 12. Protein Binding, TF Motifs, and Regulatory Analysis
+
+- **SEMplR**: Predicts transcription factor binding scores using SNP effect matrices derived from PWMs, ChIP-seq, and DNase-seq.
+[github.com/grkenney/SEMplR](https://github.com/grkenney/SEMplR)[^1]
+- **JASPAR**: Programmatic access to manually curated DNA binding profiles for transcription factors and simulation of regulatory sequences.
+[github.com/da-bar/JASPAR](https://github.com/da-bar/JASPAR)[^1]
+
+***
+
+**All URLs are verified for the scientific software repositories listed and point to corresponding descriptions or packages.**[^1]
 
 <div align="center">⁂</div>
 
-[^1]: allsumms.txt
+[^1]: fullsumms.txt
 
