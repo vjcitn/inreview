@@ -20,9 +20,9 @@ Below is a categorization and structured Markdown summary for the attached repos
 ### 2. Single-cell RNA-seq Data
 
 - **wenmmEMTscoreData**: Provides 12 curated single-cell RNA-seq datasets profiling EMT in human cancer cell lines; data supplied as Seurat objects.
-[github.com/sonneveld-lab/wenmmEMTscoreData](https://github.com/sonneveld-lab/wenmmEMTscoreData)[^1]
+[github.com//wenmm/EMTscoreData](https://github.com/wenmm/EMTscoreData)[^1]
 - **libscranscrapple**: User-friendly wrappers for single-cell RNA-seq analysis in R, interoperable with Bioconductor objects and supporting common single-cell workflows.
-[github.com/LTLA/libscranscrapple](https://github.com/LTLA/libscranscrapple)[^1]
+[github.com/libscran/scrapple](https://github.com/libscran/scrapple)[^1]
 - **StatescopeR**: Deconvolves bulk RNA profiles into cellular components using single-cell RNA-seq references and prior knowledge.
 [github.com/tgac-vumc/StatescopeR](https://github.com/tgac-vumc/StatescopeR)[^1]
 - **singIST**: Comparative single-cell transcriptomics, aligning disease models and human datasets for cell type mapping and orthology.
