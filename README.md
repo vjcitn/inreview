@@ -9,8 +9,9 @@ Below is an organized summary in Markdown, placing each repository into 12 conce
 ### 1. DNA Sequencing, Preprocessing, and Quality Control
 
 - **traverscfraq**
-High-throughput toolkit for parallel FASTQ processing, covering downsampling, barcode counting, demultiplexing, trimming, and more.
-[https://github.com/traverscfraq](https://github.com/traverscfraq)
+High-throughput toolkit for parallel FASTQ processing, covering downsampling, barcode counting, demultiplexing, trimming, and more.  Uses
+Intel Threading Building Blocks.
+[https://github.com/traversc/fraq](https://github.com/traversc/fraq)
 - **MutSeqRData**
 Experimental duplex sequencing data package for benchmarking mutagenesis assays.
 [https://github.com/EHSRB-BSRSE-Bioinformatics/MutSeqRData](https://github.com/EHSRB-BSRSE-Bioinformatics/MutSeqRData)
