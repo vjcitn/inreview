@@ -27,7 +27,7 @@ Single-cell RNA-seq datasets profiling EMT responses in human cancer cell lines.
 [https://github.com/wenmm/EMTscoreData](https://github.com/wenmm/EMTscoreData)
 - **libscranscrapple**
 User-friendly wrappers for single-cell RNA-seq analysis with Bioconductor compatibility.
-[https://github.com/libscranscrapple/libscranscrapple](https://github.com/libscranscrapple/libscranscrapple)
+[https://github.com/libscran/scrapple](https://github.com/libscran/scrapple)
 - **singIST**
 Comparative single-cell transcriptomics and orthology analysis between disease models and human datasets.
 [https://github.com/DataScienceRD-Almirall/singIST](https://github.com/DataScienceRD-Almirall/singIST)
