@@ -23,7 +23,7 @@ and capabilities.
 
 # Enumerating packages in review
 
-```{r geto, messages=FALSE}
+```{r geto, message=FALSE}
 library(BiocRevSumm)
 iss = get_repos_from_open_issues("bioconductor", "contributions")
 head(iss)
