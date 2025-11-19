@@ -1,6 +1,6 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
+<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:32px;margin-right:32px"/>
 
-# Yes.  Work with this file.  Please organize the repos in 10-12 conceptual categories and present the URLs properly.
+
 
 Below is an organized summary in Markdown, placing each repository into 12 conceptual categories and using the proper GitHub URL format (“https://github.com/owner/repo”). Each entry contains a brief, method-focused description and the exact URL.
 
@@ -9,8 +9,9 @@ Below is an organized summary in Markdown, placing each repository into 12 conce
 ### 1. DNA Sequencing, Preprocessing, and Quality Control
 
 - **traverscfraq**
-High-throughput toolkit for parallel FASTQ processing, covering downsampling, barcode counting, demultiplexing, trimming, and more.
-[https://github.com/traverscfraq](https://github.com/traverscfraq)
+High-throughput toolkit for parallel FASTQ processing, covering downsampling, barcode counting, demultiplexing, trimming, and more.  Uses
+Intel Threading Building Blocks.
+[https://github.com/traversc/fraq](https://github.com/traversc/fraq)
 - **MutSeqRData**
 Experimental duplex sequencing data package for benchmarking mutagenesis assays.
 [https://github.com/EHSRB-BSRSE-Bioinformatics/MutSeqRData](https://github.com/EHSRB-BSRSE-Bioinformatics/MutSeqRData)
@@ -27,7 +28,7 @@ Single-cell RNA-seq datasets profiling EMT responses in human cancer cell lines.
 [https://github.com/wenmm/EMTscoreData](https://github.com/wenmm/EMTscoreData)
 - **libscranscrapple**
 User-friendly wrappers for single-cell RNA-seq analysis with Bioconductor compatibility.
-[https://github.com/libscranscrapple/libscranscrapple](https://github.com/libscranscrapple/libscranscrapple)
+[https://github.com/libscran/scrapple](https://github.com/libscran/scrapple)
 - **singIST**
 Comparative single-cell transcriptomics and orthology analysis between disease models and human datasets.
 [https://github.com/DataScienceRD-Almirall/singIST](https://github.com/DataScienceRD-Almirall/singIST)
